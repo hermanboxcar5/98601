@@ -1,0 +1,91 @@
+@import url("https://use.typekit.net/mal5lzs.css");
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Share+Tech&display=swap');
+ @font-face { font-family: Tech; src: url('fonts/BEATTECH.otf'); } 
+ @font-face { font-family: Tech; font-weight: bold; src: url('fonts/BEATTECH.otf');}
+
+body, div, span, h1, h2, h3, p, button, input {
+    font-family: "proxima-nova", sans-serif;
+}
+
+body, h1, h2, h3{ 
+    margin:0px;
+    font-size:20px;
+}
+
+.beattech {
+  font-family:"Tech";
+}
+
+.photosection.main {
+  display:flex;
+  height:max-content;
+  width:60%;
+  margin-left:20vw;
+  border-radius:40px;
+}
+.photosection.photo {
+  flex:1;
+  height:500px;
+  width:fit-content;
+  
+}
+.photosection.photo > img {
+  object-fit: contain;
+  height:500px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius:40px;
+}
+.photosection.text {
+  flex:2;
+  padding:20px;
+  height:460px;
+  background-color:#888;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius:40px;
+}
+
+body {
+    height:100%;
+    overflow-y:auto;
+    background-color:#2F3238;
+    color:white;
+}
+
+.headerbar {
+    padding:20px;
+    position:sticky;
+    top:0;
+    left:0;
+    background: #525252;
+    height:90px;
+    line-height:40px;
+    vertical-align: top;
+    padding-left:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius:5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
